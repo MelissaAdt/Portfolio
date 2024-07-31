@@ -29,6 +29,55 @@
   margin-right: 1em;
 }
 
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  align-items: center; 
+}
+
+
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  animation: slideDown 1.5s ease-out;
+}
+
+.intro__image-container {
+  display: flex;
+  justify-content: center; 
+  overflow: hidden; 
+}
+
+.intro__image {
+  max-width: 100%;
+  height: auto; 
+  animation: slideLeft 2s ease-in-out; 
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(100%); 
+    opacity: 0; 
+  }
+  to {
+    transform: translateX(0); 
+    opacity: 1; 
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px); 
+    opacity: 0; 
+  }
+  to {
+    transform: translateY(0); 
+    opacity: 1; 
+  }
+}
+
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;

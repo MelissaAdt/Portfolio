@@ -1,17 +1,17 @@
 import uniqid from 'uniqid'
-import { projects } from '../../portfolio'
+import { projets } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import './Projects.css'
 
 const Projects = () => {
-  if (!projects.length) return null
+  if (!projets.length) return null
 
   return (
-    <section id='projects' className='section projects'>
-      <h2 className='section__title'>Projects</h2>
+    <section id='projets' className='section projects'>
+      <h2 className='section__title'>Projets</h2>
 
       <div className='projects__grid'>
-        {projects.map((project) => (
+        {projets.map((project) => (
           <ProjectContainer key={uniqid()} project={project} />
         ))}
       </div>

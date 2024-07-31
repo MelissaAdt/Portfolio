@@ -15,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1,
+
 h2,
 h3,
 h4 {
@@ -50,6 +50,8 @@ a {
 button {
   cursor: pointer;
 }
+
+
 
 @media (max-width: 900px) {
   h1 {
