@@ -78,9 +78,35 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .app .about {
-    align-items: flex-start;
+    align-items: center;
     margin-top: 2em;
   }
+
+  .intro {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    gap: 2em; 
+  }
+
+  .intro__text {
+   
+    margin: 0; 
+  }
+
+  .intro__image-container {
+    display: flex;
+    justify-content: center; 
+    overflow: hidden;
+  }
+
+  .intro__image {
+    max-width: 100%;
+    height: auto;
+  }
+
 }
