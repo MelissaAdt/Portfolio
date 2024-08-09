@@ -16,7 +16,7 @@ const Footer = () => (
         <GitHubIcon />
       </a>
       <a
-        href="https://github.com/MelissaAdt"
+        href="https://www.linkedin.com/in/melissa-andremont-203647294/"
         aria-label='LinkedIn'
         className='link footer__link'
         target='_blank'

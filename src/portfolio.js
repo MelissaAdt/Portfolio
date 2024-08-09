@@ -8,6 +8,7 @@ import modalImage2 from '../src/assets/sophie_ordi.png';
 import modalImage3 from '../src/assets/nina_ordi.png';
 import modalImage4 from '../src/assets/kasa_mac.png';
 import modalImage5 from '../src/assets/monvieuxgrimoire_ordi.png';
+import resume1 from '../src/assets/Melissa_Andremont_CV.pdf';
 
 const header = {
 
@@ -23,10 +24,10 @@ const about = {
 const apropos = { 
   description: "Après avoir terminé la formation OpenClassrooms en développement web, je suis désormais spécialisée dans ce domaine. Cette formation m’a permis de maîtriser les technologies front-end. Je suis enthousiaste à l'idée d'appliquer ces compétences pour créer des projets web fonctionnels et esthétiques, tout en cherchant continuellement à apprendre et évoluer dans ce secteur dynamique.",
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/melissa-andremont-203647294/',
     github: 'https://github.com/MelissaAdt',
   },
-  resume: 'https://example.com'
+  resume: resume1
 }
 
 const projets = [
