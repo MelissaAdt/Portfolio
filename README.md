@@ -1,7 +1,8 @@
 
 ## Instructions
 
-git clone https://github.com/MelissaAdt/Portfolio.git
+```bash
+git clone https://github.com/MelissaAdt/Portfolio.git  
 cd Portfolio
 
 # Installation
